@@ -1,0 +1,33 @@
+* {
+  background-color: white;
+}
+
+body {
+  color: black;
+}
+
+div.wrapper {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+@font-face {
+    font-family: 'amatic';
+    src: local('Amatic-Bold'),
+         url('../woff/amatic-bold-webfont.woff2') format('woff2'),
+         url('../woff/amatic-bold-webfont.woff') format('woff');
+}
+
+h1 {
+  color: black;
+  font-family: 'amatic';
+  font-size: 72pt;
+}
+
+h1 span {
+  color: lightgrey;
+  font-size: 32pt;
+  left: -40px;
+  position: relative;
+  top: 100px;
+}
